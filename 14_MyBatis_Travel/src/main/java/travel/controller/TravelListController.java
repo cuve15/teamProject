@@ -39,7 +39,6 @@ public class TravelListController {
 		
 		System.out.println("pageNumber : " + pageNumber);
 		
-		// 삭제하고 한 줄 추가했다
 		int totalCount = travelDao.getTotalCount(map);
 		
 		System.out.println("totalCount : " + totalCount);
@@ -47,6 +46,8 @@ public class TravelListController {
 		String url = request.getContextPath() + command;
 		System.out.println("url : " + url);
 		
+		
+		// 한글 깨짐
 		Paging pageInfo = new Paging(pageNumber, "2", totalCount, url, whatColumn, keyword);
 		
 		System.out.println("offset : " + pageInfo.getOffset());
