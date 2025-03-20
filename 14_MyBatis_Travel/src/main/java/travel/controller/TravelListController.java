@@ -36,10 +36,10 @@ public class TravelListController {
 		
 		map.put("whatColumn", whatColumn);
 		map.put("keyword", "%" + keyword + "%");
-		// map 에 값을 넣을 때는 put을 사용하고, 꺼낼 때는 get을 사용한다.
 		
 		System.out.println("pageNumber : " + pageNumber);
 		
+		// 삭제하고 한 줄 추가했다
 		int totalCount = travelDao.getTotalCount(map);
 		
 		System.out.println("totalCount : " + totalCount);
