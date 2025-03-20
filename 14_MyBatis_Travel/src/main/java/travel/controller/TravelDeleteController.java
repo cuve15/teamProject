@@ -24,5 +24,8 @@ public class TravelDeleteController {
 		System.out.println("deleteAction cnt : " + cnt);
 		
 		return gotoPage;
+		// sneed 가 추가함 
+		// sneed 가 추가함 
+		// sneed 가 추가함 
 	}
 }
