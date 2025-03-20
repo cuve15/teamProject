@@ -25,7 +25,7 @@ public class TravelDeleteController {
 		
 		return gotoPage;
 		// sneed 가 추가함 
-		// sneed 가 추가함 
-		// sneed 가 추가함 
+		// master 가 수정함 
+		// master 가 수정함 
 	}
 }
