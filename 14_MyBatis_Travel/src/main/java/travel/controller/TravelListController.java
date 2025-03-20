@@ -47,7 +47,7 @@ public class TravelListController {
 		System.out.println("url : " + url);
 		
 		
-		// 진짜 마지막 한글 수정 sneed15
+		// 진짜 마지막 한글 수정 sneed15 찐막
 		Paging pageInfo = new Paging(pageNumber, "2", totalCount, url, whatColumn, keyword);
 		
 		System.out.println("offset : " + pageInfo.getOffset());
