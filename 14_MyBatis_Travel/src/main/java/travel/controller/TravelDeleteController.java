@@ -27,5 +27,8 @@ public class TravelDeleteController {
 		// sneed 가 추가함 
 		// master 가 수정함 
 		// master 가 수정함 
+		// sneed 도 수정함 
+		// sneed 가 추가함 
+		// sneed 가 추가함 
 	}
 }
